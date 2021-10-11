@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700&family=Rowdies:wght@700&family=Ruslan+Display&family=Sen:wght@800&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Multiverse</title>
+</head>
+<body>
+  <div class="site-container">
+    <div class="container">
+      <header class="header">
+        <h1 class="title"><a href="#!">Multiverse</a></h1>
+        <ul class="nav">
+          <li class="nav__item">
+            <img src="./img/shop.png" alt="Магазин" width="59" height="42">
+            <a href="#!" class="nav__link">Магазин</a>
+          </li>
+          <li class="nav__item">
+            <img src="./img/rules.png" alt="Правила" width="46" height="31">
+            <a href="#!" class="nav__link">Правила</a>
+          </li>
+        </ul>
+        <span class="text">Мы всегда рады видеть новых игроков на нашем сервере и готовы им помочь!</span>
+        <div class="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </div>
+      </header>
+      <section class="section hero">
+        <div class="hero-block">
+          <div class="hero-top">
+            <form action="/" class="form hero-top-inputs">
+              <div class="hero__input">
+                <span>Игровой ник</span>
+                <input type="text" id="nickname">
+                <img src="./img/nickname.png" alt="Имя персонажа" width="25" height="24">
+              </div>
+              <div class="hero__input">
+                <span>Привилегия</span>
+                <input type="text" id="privilege">
+                <img src="./img/privilege.png" alt="Привилегия" width="30" height="30">
+              </div>
+              <div class="hero__input">
+                <span>Игровая валюта</span>
+                <input type="text" id="game_currency" class="hero__input">
+                <img src="./img/game_currency.png" alt="Игровая валюта" width="31" height="30">
+              </div>
+              <div class="hero__input">
+                <span>Донатная валюта</span>
+                <input type="text" id="donation_currency" class="hero__input">
+                <img src="./img/donation_currency.png" alt="Донатная валюта" width="31" height="30">
+              </div>
+            </form>
+            <div class="hero-prewiev">
+              <img src="./img/prewiev.png" alt="Персонаж">
+            </div>
+          </div>
+          <div class="hero-bottom">
+            <form action="/" class="form hero-bottom-inputs">
+              <div class="hero__input hero__input--dark">
+                <span>Привязка аккаунта к Discord</span>
+                <input type="text" id="discord">
+                <img src="./img/discord.png" alt="Привязка аккаунта к Discord">
+              </div>
+              <div class="hero__input hero__input--dark">
+                <span>Привязка аккаунта к Vk</span>
+                <input type="text" id="vk">
+                <img src="./img/vk.png" alt="Привязка аккаунта к Vk">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-content">
+          <span class="footer__text">Ищи нас здесь:</span>
+          <div class="social">
+            <a href="#!" class="social__link">
+              <img src="./img/social_vk.png" alt="">
+            </a>
+            <a href="#!" class="social__link">
+              <img src="./img/discord.png" alt="">
+            </a>
+          </div>
+          <div class="footer-mobile">
+            <img src="./img/footer_mobile.png" alt="footer mobile" width="49" height="47">
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
