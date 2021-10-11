@@ -241,6 +241,9 @@
   .social {
     display: none;
   }
+  .header {
+    margin-bottom: 41px;
+  }
   .hero {
     margin-bottom: 13px;
   }
