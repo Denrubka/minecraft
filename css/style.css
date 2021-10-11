@@ -14,9 +14,9 @@
   margin-bottom: 85px;
 }
 .burger {
+  display: none;
   width: 19px;
   height: 15px;
-  display: flex;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -161,6 +161,9 @@
 .social__link:not(:last-child) {
   margin-right: 15px;
 }
+.footer-mobile {
+  display: none;
+}
 @media (max-width: 1400px) {
   .header {
     justify-content: space-between;
@@ -246,5 +249,11 @@
   }
   .hero {
     margin-bottom: 13px;
+  }
+  .burger {
+    display: flex;
+  }
+  .footer-mobile {
+    display: block;
   }
 }
